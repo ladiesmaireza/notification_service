@@ -1,0 +1,29 @@
+.user-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    border: 2px solid #cbd5e1;
+    background-color: #ffffff;
+}
+
+.user-table thead th {
+    background-color: #e5e7eb;
+    border: 1px solid #cbd5e1;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.user-table tbody td {
+    border: 1px solid #cbd5e1;
+    padding: 10px;
+    text-align: center;
+}
+
+.user-table tbody tr:nth-child(even) {
+    background-color: #f8fafc;
+}
+
+.user-table tbody tr:hover {
+    background-color: #e0f2fe;
+}
